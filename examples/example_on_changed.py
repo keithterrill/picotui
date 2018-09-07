@@ -6,6 +6,7 @@
 from picotui.context import Context
 from picotui.screen import Screen
 from picotui.widgets import *
+from picotui.defs import *      # C_WHITE, C_BLUE wasn't being defined - KLT
 
 
 with Context():
